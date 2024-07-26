@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.func{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(235, 235, 235);
+}
+
+.func a{
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+   font-weight: bolder;
+   border-radius: 15PX;
+}
+
+.botoes{
+    display: flex;
+    gap: 200px;
+}
+
+#btt1{
+    display: flex;
+    background-color: rgb(95, 95, 218);
+    height: 80px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#btt2{
+    display: flex;
+    background-color: rgb(219, 104, 104);
+    height: 80px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#btt3{
+    display: flex;
+    background-color: rgb(218, 200, 95);
+    height: 80px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aside{
+    display: flex;
+    margin-top: 110px ;
+    margin-right: 130px ;
+}
+.visor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: rgb(235, 235, 235);
+    color: rgb(55, 63, 70);
+    height: 550px;
+    width: 400px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    margin-left: 320px;
+    margin-top: 60px;
+}
